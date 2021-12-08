@@ -1,0 +1,85 @@
+.home {
+	/* height: 500px; */
+	position: relative;
+	padding: 180px 0 120px 0;
+	background: #ff6b81;
+}
+
+.container {
+	padding: 0 12px;
+	margin: 0 70px;
+}
+
+.row {
+	display: flex;
+}
+
+.hero-content {
+	padding: 0 12px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.hero__title {
+	font-size: 2rem;
+	margin: 2rem 0 12px 0;
+	color: white;
+}
+
+.hero__text {
+	font-size: 22px;
+	margin: 0;
+	margin-top: 2rem;
+	width: 90%;
+	color: white;
+}
+
+.actions {
+	display: flex;
+	margin-top: 3rem;
+}
+
+.action {
+	margin: 0;
+	margin-left: 22px;
+	background: transparent !important;
+	border: 2px solid #fff !important;
+	padding: 12px 30px;
+	border-radius: 4px;
+	color: white;
+	fill: white;
+}
+.action a {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.google {
+	color: inherit;
+	fill: inherit;
+}
+
+.action:last-child {
+	color: #ff6b81;
+	fill: #ff6b81;
+	background-color: #fff !important;
+}
+.apple {
+	color: inherit;
+	fill: inherit;
+}
+
+.action:first-child:hover {
+	background-color: white !important;
+	color: #ff6b81;
+	fill: #ff6b81;
+}
+
+.action:last-child:hover {
+	background-color: #081828 !important;
+	border: 2px solid #081828 !important;
+	color: #fff !important;
+	fill: white;
+}
